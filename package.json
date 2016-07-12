@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Benjamin Kramer",
+    "email": "info@nerdchandise.io"
+  },
+  "name": "8x8matrix",
+  "description": "A simple node.js-based helper for the Raspberry Pi and the Adafruit 8x8 Matrix",
+  "version": "0.0.1",
+  "homepage": "https://nerdchandise.io",
+  "main": "./8x8matrix.js",
+  "bugs": {
+    "url": "https://nerdchandise.io/8x8matrix/issues"
+  },
+  "tags": [
+    "raspberry",
+    "pi",
+    "gpio",
+    "simple",
+    "matrix",
+    "led"
+  ],
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "readme": "",
+  "readmeFilename": "README.md"
+}
