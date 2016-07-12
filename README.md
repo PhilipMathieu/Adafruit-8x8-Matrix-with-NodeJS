@@ -22,3 +22,23 @@ var matrix = require('8x8matrix');
 matrix.init(rpio);
 matrix.writeArray(matrix.smily);
 ```
+
+## API
+
+Pixels can be written by a simple js-array with 64 objects. 
+
+```
+
+var smily = [
+	0,0,1,1,1,1,0,0,
+	0,1,0,0,0,0,1,0,
+	1,0,1,0,1,0,0,1,
+	1,0,1,0,1,0,0,1,
+	1,0,0,0,0,1,0,1,
+	1,0,1,1,1,0,0,1,
+	0,1,0,0,0,0,1,0,
+	0,0,1,1,1,1,0,0
+];
+
+matrix.writeArray(smily);
+```
