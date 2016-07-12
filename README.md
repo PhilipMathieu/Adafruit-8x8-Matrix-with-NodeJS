@@ -8,14 +8,14 @@ Controll your [Adafruit 8x8 Matrix](https://www.adafruit.com/products/959) with 
 [rpio](https://www.npmjs.com/package/rpio) is required for this library
 
 ```
-npm install rpio
+$ npm install rpio
 ```
 
 ## Setup
 
 Include rpio and 8x8matrix to your .js-file, initialize 8x8matrix with your rpio and start manipulatin pixels.
 
-```
+```js
 var rpio = require('rpio');
 var matrix = require('8x8matrix');
 
@@ -27,8 +27,7 @@ matrix.writeArray(matrix.smily);
 
 Pixels can be written by a simple js-array with 64 objects. 
 
-```
-
+```js
 var smily = [
 	0,0,1,1,1,1,0,0,
 	0,1,0,0,0,0,1,0,
