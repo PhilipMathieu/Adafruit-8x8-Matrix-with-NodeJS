@@ -1,6 +1,6 @@
-# Adafruit-8x8-Matrix-with-NodeJS
+# Adafruit 8x8-Matrix with NodeJS
 
-Controll your [Adafruit 8x8 Matrix](https://www.adafruit.com/products/959) with NodeJS.
+Control your [Adafruit 8x8 Matrix](https://www.adafruit.com/products/959) with NodeJS.
 
 
 ## RPIO
