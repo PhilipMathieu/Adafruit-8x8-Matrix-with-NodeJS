@@ -4,7 +4,9 @@ Control your [Adafruit 8x8 Matrix](https://www.adafruit.com/products/959) with N
 
 ## Setup
 
-Include rpio and 8x8matrix to your .js-file, initialize 8x8matrix with your rpio and start manipulatin pixels.
+```
+$ npm i 8x8matrix
+```
 
 ```js
 const Matrix = require('./8x8matrix');
