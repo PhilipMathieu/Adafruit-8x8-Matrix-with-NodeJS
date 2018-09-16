@@ -1,8 +1,5 @@
 {
-  "author": {
-    "name": "Benjamin Kramer",
-    "email": "info@nerdchandise.io"
-  },
+  "author": "Benjamin Kramer <info@nerdchandise.io>",
   "name": "8x8matrix",
   "description": "A simple node.js-based helper for the Raspberry Pi and the Adafruit 8x8 Matrix",
   "version": "0.0.1",
@@ -23,6 +20,16 @@
   "engines": {
     "node": "*"
   },
-  "readme": "",
-  "readmeFilename": "README.md"
+  "dependencies": {
+    "rpio": "^0.9.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdchandise/Adafruit-8x8-Matrix-with-NodeJS.git"
+  },
+  "license": "ISC"
 }

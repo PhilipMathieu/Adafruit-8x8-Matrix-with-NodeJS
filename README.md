@@ -1,25 +1,15 @@
-# Adafruit 8x8-Matrix with NodeJS
+# Adafruit 8x8-Matrix with NodeJS ![](https://img.shields.io/npm/v/8x8matrix.svg) ![](https://img.shields.io/bundlephobia/min/8x8matrix.svg) ![](https://img.shields.io/npm/dt/8x8matrix.svg)
 
 Control your [Adafruit 8x8 Matrix](https://www.adafruit.com/products/959) with NodeJS.
-
-
-## RPIO
-
-[rpio](https://www.npmjs.com/package/rpio) is required for this library
-
-```
-$ npm install rpio
-```
 
 ## Setup
 
 Include rpio and 8x8matrix to your .js-file, initialize 8x8matrix with your rpio and start manipulatin pixels.
 
 ```js
-var rpio = require('rpio');
-var matrix = require('8x8matrix');
+const Matrix = require('./8x8matrix');
 
-matrix.init(rpio);
+let matrix = new Matrix();
 matrix.writeArray(matrix.smily);
 ```
 
