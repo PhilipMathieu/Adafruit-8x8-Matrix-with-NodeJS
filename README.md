@@ -13,6 +13,16 @@ let matrix = new Matrix();
 matrix.writeArray(matrix.smily);
 ```
 
+## Options 
+
+```js
+let matrix = new Matrix({
+	brightness: 15,
+	slaveAddress: 0x70,
+	bautrate: 10000
+});
+```
+
 ## API
 
 Pixels can be written by a simple js-array with 64 objects. 
@@ -30,4 +40,10 @@ var smily = [
 ];
 
 matrix.writeArray(smily);
+```
+
+## Test
+
+```
+$ sudo node test.js
 ```

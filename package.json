@@ -8,13 +8,15 @@
   "bugs": {
     "url": "https://nerdchandise.io/8x8matrix/issues"
   },
-  "tags": [
+  "keywords": [
     "raspberry",
     "pi",
     "gpio",
     "simple",
     "matrix",
-    "led"
+    "led",
+    "adafruit",
+    "8x8",
   ],
   "optionalDependencies": {},
   "engines": {

@@ -30,6 +30,10 @@ var Matrix = function(data) {
 
 Matrix.prototype.setBrightness = function(b) {
 	
+	if (b > 15) b = 15;
+	if (b < 0) b = 0;
+	
+	rpio.i2cWrite(Buffer([(0xE0 | b)]));
 }
 
 Matrix.prototype.setLED = function(y, x, value) {
