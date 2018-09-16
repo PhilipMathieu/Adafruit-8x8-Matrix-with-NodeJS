@@ -1,6 +1,6 @@
 # Adafruit 8x8-Matrix with NodeJS ![](https://img.shields.io/npm/v/8x8matrix.svg) ![](https://img.shields.io/bundlephobia/min/8x8matrix.svg) ![](https://img.shields.io/npm/dt/8x8matrix.svg)
 
-Control your [Adafruit 8x8 Matrix](https://www.adafruit.com/products/959) with NodeJS.
+Control your [Adafruit 8x8 Matrix](https://www.adafruit.com/products/959) with NodeJS. Your nodejs script have to run as root.
 
 ## Setup
 
@@ -40,6 +40,20 @@ var smily = [
 ];
 
 matrix.writeArray(smily);
+
+/**
+  * Set brightness of all LED
+  * Values: 1 (very low) to 15 (very bright)
+  */
+  
+matrix.setBrightness(8);
+
+/**
+  * Set first top-left LED to on 
+  * matrix.setLED(x, y, true/false);
+  */
+  
+matrix.setLED(0, 0, 1);
 ```
 
 ## Test
