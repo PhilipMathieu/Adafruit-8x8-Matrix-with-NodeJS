@@ -1,4 +1,6 @@
-# Adafruit 8x8-Matrix with NodeJS ![](https://img.shields.io/npm/v/8x8matrix.svg) ![](https://img.shields.io/bundlephobia/min/8x8matrix.svg) ![](https://img.shields.io/npm/dt/8x8matrix.svg)
+# Adafruit 8x8-Matrix with NodeJS
+
+![](https://img.shields.io/npm/v/8x8matrix.svg) ![](https://img.shields.io/bundlephobia/min/8x8matrix.svg) ![](https://img.shields.io/npm/dt/8x8matrix.svg)
 
 Control your [Adafruit 8x8 Matrix](https://www.adafruit.com/products/959) with NodeJS. Your nodejs script have to run as root.
 
@@ -9,13 +11,13 @@ $ npm i 8x8matrix
 ```
 
 ```js
-const Matrix = require('./8x8matrix');
+const Matrix = require('8x8matrix');
 
 let matrix = new Matrix();
 matrix.writeArray(matrix.smily);
 ```
 
-## Options 
+## Options
 
 ```js
 let matrix = new Matrix({
@@ -27,7 +29,7 @@ let matrix = new Matrix({
 
 ## API
 
-Pixels can be written by a simple js-array with 64 objects. 
+Pixels can be written by a simple js-array with 64 objects.
 
 ```js
 var smily = [
@@ -47,14 +49,14 @@ matrix.writeArray(smily);
   * Set brightness of all LED
   * Values: 1 (very low) to 15 (very bright)
   */
-  
+
 matrix.setBrightness(8);
 
 /**
-  * Set first top-left LED to on 
+  * Set first top-left LED to on
   * matrix.setLED(x, y, true/false);
   */
-  
+
 matrix.setLED(0, 0, 1);
 ```
 
