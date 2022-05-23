@@ -23,7 +23,7 @@
     "node": "*"
   },
   "dependencies": {
-    "rpio": "^0.9.22"
+    "rpio": "^1.4.0"
   },
   "devDependencies": {},
   "scripts": {
